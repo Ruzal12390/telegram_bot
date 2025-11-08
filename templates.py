@@ -7,7 +7,9 @@ player = {
 	"agility": 0,
 	"charisma": 0,
 	"intellect": 0,
-	"inventory": []
+	"inventory": [],
+	"last_free_item_time": 0,
+	"roll_count": 0
 }
 
 equipment = [
@@ -25,8 +27,32 @@ equipment = [
 		"item_name": "Деревянный меч",
 		"attribute": "strenght",
 		"value": 5,
+	},
+	{
+		"item_name": "Малое зелье лечения",
+		"attribute": "hp",
+		"value": 10,
 	}
 ]
+
+equipment = {
+	"Шлем бронзовый": {
+		"attribute": "armor",
+		"value": 2,
+	},
+	"Деревянный щит": {
+		"attribute": "armor",
+		"value": 3,
+	},
+	"Деревянный меч": {
+		"attribute": "strenght",
+		"value": 5,
+	},
+	"Малое зелье лечения": {
+		"attribute": "hp",
+		"value": 10,
+	}
+}
 
 enemies = [
 	{
